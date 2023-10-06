@@ -318,6 +318,8 @@ body{
     background: url(./image/banner-bg.jpg) no-repeat;
     background-size: cover;
     background-position: center;
+    height: fit-content;
+    
 }
 .home .row{
     display: flex;
@@ -333,15 +335,15 @@ body{
     margin-top: 2rem;
 }
 
-.home .row .books-slider a img{
+.home .row .books-slider .wrapper a img{
     height: 25rem;
 }
 
-.home .row .books-slider a:hover img{
+.home .row .books-slider .wrapper a:hover img{
     transform: scale(.9);
 }
 
 .home .row .books-slider .stand{
     width: 100%;
-    margin-top: -2rem;
+    margin-top: -0.5rem;
 }
