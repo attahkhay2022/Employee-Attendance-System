@@ -22,6 +22,7 @@
     text-transform: capitalize;
     transition:all .2s linear;
     transition: width none;
+    text-decoration: none;
 }
 
 html{
@@ -451,7 +452,7 @@ body{
     transform: translateY(3rem);
 }
 
-.featured .featured-slider .box .image .img{
+.featured .featured-slider .box .image img{
     height: 25rem;
 }
 
@@ -532,3 +533,240 @@ body{
     border-radius: .5rem;
     text-transform: none; 
 }
+
+/* arrivals */
+
+.arrivals .arrivals-slider .box{
+    display: flex;
+    align-items: center;
+    gap: 1.5rem;
+    padding: 2rem 1rem;
+    border: var(--border);
+    margin: 1rem 0;
+}
+
+.arrivals .arrivals-slider .box:hover{
+    border: var(--border-hover);
+}
+
+.arrivals .arrivals-slider .box .image img{
+    height: 15rem;
+}
+
+.arrivals .arrivals-slider .box .content h3{
+    font-size: 2rem;
+    color: var(--black);
+}
+
+.arrivals .arrivals-slider .box .content .price{
+    font-size: 2.2rem;
+    color: var(--black);
+    padding-bottom: .5rem;
+}
+
+.arrivals .arrivals-slider .box .content .price span{
+    font-size: 1.5rem;
+    color: var(--light-color);
+   text-decoration: line-through;
+}
+
+.arrivals .arrivals-slider .box .content .stars i{
+    font-size: 1.5rem;
+    color: var(--green);
+}
+
+
+
+.deal{
+    background: #f3f3f3;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.deal .content{
+    flex: 1 1 52rem;
+
+}
+
+.deal .image{
+    flex: 1 1 32rem;
+}
+
+
+.deal .image img{
+   width: 100%;
+}
+
+.deal .content h3{
+    color: var(--green);
+    font-size: 2.5rem;
+    padding-bottom: .5rem;
+}
+
+.deal .content h1{
+    color: var(--black);
+    font-size: 4rem;
+}
+
+.deal .content p{
+    color: var(--light-color);
+    font-size: 1.4rem;
+    line-height: 2;
+}
+
+
+.reviews .reviews-slider .box{
+    width: 30rem;
+    border:var(--border);
+    padding: 2rem;
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.reviews .reviews-slider .box:hover{
+    border:var(--border-hover);
+}
+
+.reviews .reviews-slider .box img{
+    height: 7rem;
+    width: 7rem;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.reviews .reviews-slider .box h3{
+    color: var(--black);
+    font-size: 2.2rem;
+    padding: .5rem 0;
+
+
+}
+
+.reviews .reviews-slider .box p{
+    color:var(--light-color);
+    font-size: 1.4rem;
+    padding: 1rem 0;
+    line-height: 2;
+}
+
+.reviews .reviews-slider .box .stars i{
+    font-size: 1.7rem;
+    color: var(--green);
+}  
+
+
+.blogs .blogs-slider .box{
+    margin: 2rem 0;
+    border: var(--border);
+}
+
+.blogs .blogs-slider .box:hover{
+         border: var(--border);
+}
+
+.blogs .blogs-slider .box .image{
+    height: 25rem;
+    width: 100%;
+    overflow: hidden;
+
+}
+
+.blogs .blogs-slider .box .image img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+.blogs .blogs-slider .box:hover .image img{
+    transform: scale(1.1);
+
+}
+
+
+.blogs .blogs-slider .box .content{
+    padding: 1.5rem;
+}
+
+.blogs .blogs-slider .box .content h3{
+    font-size: 2.2rem;
+    color: var(--black);
+}
+
+.blogs .blogs-slider .box .content p{
+    font-size: 1.4rem;
+    color: var(--light-color);
+    padding: 1rem 0;
+    line-height: 2;
+}
+
+
+.footer .box-container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+    gap: 1.5rem;
+
+}
+
+.footer .box-container .box h3{
+      font-size: 2.2rem;
+      color: var(--black);
+      padding: 1rem 0;
+       
+}
+.footer .box-container .box a{
+    display: block;
+    font-size: 1.4rem;
+    color: var(--light-color);
+    padding: 1rem 0;
+     
+}
+
+.footer .box-container .box a i{
+    color: var(--green);
+    padding-right: 5rem;
+}
+
+.footer .box-container .box a:hover i{
+    padding-right: 2rem;
+}
+
+.footer .box-container .box .map{
+    width: 100%;
+}
+
+.footer .share{
+    padding: 1rem 0;
+    text-align: center
+}
+.footer .share a{
+    height: 5rem;
+    width: 5rem;
+    line-height: 5rem;
+    font-size: 2rem;
+    color: #fff;
+    background: var(--green);
+    margin: 0 .3rem;
+    border-radius: 50%;
+}
+
+.footer .share a:hover{
+     background: var(--black);
+}
+
+.footer .credit{
+    border-top: var(--border);
+    margin-top: 5rem;
+    padding: 0 1rem;
+    padding-top: 2.5rem;
+    font-size:2rem;
+    color: var(--light-color);
+    text-align: center;
+}
+
+.footer .credit span{
+       color: var(--green);
+
+}
+
