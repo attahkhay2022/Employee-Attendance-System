@@ -31,8 +31,8 @@ document.querySelector('#login').onclick = () =>{
 }
 
 
-// // search forms
-// let drawSearch = document.querySelector('.header-1');
-// document.querySelector('#search-btn').onclick =() => {
-//     drawSearch.classList.toggle('active');
-// }
+// search forms
+let drawSearch = document.querySelector('.search-form');
+document.querySelector('#search-btn').onclick =() => {
+    drawSearch.classList.toggle('active');
+}
